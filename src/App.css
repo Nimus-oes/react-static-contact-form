@@ -1,0 +1,19 @@
+.main {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.consent {
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 820px) {
+  .main {
+    width: 810px;
+  }
+}

@@ -2,8 +2,8 @@ import logo from "../assets/Logo.svg";
 
 export default function Logo() {
   return (
-    <div>
+    <header>
       <img src={logo} alt="Beck logo" />
-    </div>
+    </header>
   );
 }
