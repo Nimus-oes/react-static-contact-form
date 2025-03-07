@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-item {
   display: flex;
   flex-direction: column;
@@ -15,5 +20,18 @@
 @media only screen and (min-width: 820px) {
   .main {
     width: 810px;
+  }
+
+  .form {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .half-w {
+    flex: 1 1 48%;
+  }
+
+  .full-w {
+    flex: 1 1 100%;
   }
 }
