@@ -64,7 +64,6 @@
   padding: 23px 22px;
   height: 68px;
   color: var(--black-text);
-  border-radius: 16px;
 }
 
 .textarea {
@@ -91,6 +90,11 @@
   letter-spacing: -0.2px;
   padding: 24px 0;
   color: var(--purple-text);
+}
+
+.item-input,
+.button {
+  border-radius: 16px;
 }
 
 @media only screen and (min-width: 820px) {
