@@ -37,7 +37,11 @@ export default function Form() {
         <label htmlFor="message" className="item-title">
           Message
         </label>
-        <textarea name="message" id="message" className="item-input"></textarea>
+        <textarea
+          name="message"
+          id="message"
+          className="item-input textarea"
+        ></textarea>
       </div>
       <div className="form-item consent full-w">
         <label htmlFor="consent"></label>

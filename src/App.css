@@ -1,3 +1,10 @@
+/* Header */
+
+.header {
+  width: 94%;
+  margin: 20px auto 40px auto;
+}
+
 /* Heading*/
 
 .title {
@@ -5,6 +12,7 @@
   font-weight: 700;
   line-height: 125%;
   letter-spacing: -0.4px;
+  margin: 0 auto 16px auto;
 }
 
 .subtitle {
@@ -12,12 +20,12 @@
   font-weight: 500;
   line-height: 150%;
   letter-spacing: -0.16px;
+  margin: 0 auto 72px auto;
 }
 
 .title,
 .subtitle {
   text-align: center;
-  margin: 0 auto;
 }
 
 /* Main */
@@ -32,11 +40,14 @@
 .form {
   display: flex;
   flex-direction: column;
+  padding: 20px 12px;
+  gap: 24px;
 }
 
 .form-item {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
 .item-title {
@@ -49,6 +60,11 @@
   font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.16px;
+  padding: 24px 22px;
+}
+
+.textarea {
+  height: 206px;
 }
 
 .consent {
@@ -56,15 +72,21 @@
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.14px;
+  gap: 5px;
 }
 
 .button {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: -0.2px;
+  padding: 24px 0;
 }
 
 @media only screen and (min-width: 820px) {
+  .header {
+    width: 85%;
+  }
+
   .main {
     width: 810px;
   }
@@ -84,6 +106,11 @@
   .form {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .form-item {
+    margin-bottom: 6px;
   }
 
   .half-w {
@@ -92,5 +119,11 @@
 
   .full-w {
     flex: 1 1 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .header {
+    width: 89%;
   }
 }
