@@ -98,6 +98,17 @@
   border-radius: 16px;
 }
 
+.dropdown {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(./assets/expand_down.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position-x: 95%;
+  background-position-y: 50%;
+}
+
 @media only screen and (min-width: 820px) {
   .header {
     width: 85%;
