@@ -17,6 +17,7 @@
 .title,
 .subtitle {
   text-align: center;
+  margin: 0 auto;
 }
 
 /* Main */
@@ -69,11 +70,13 @@
   }
 
   .title {
+    width: 577px;
     font-size: 64px;
     letter-spacing: -0.64px;
   }
 
   .subtitle {
+    width: 641px;
     font-size: 32px;
     letter-spacing: -0.32px;
   }
