@@ -5,13 +5,25 @@ export default function Form() {
         <label htmlFor="name" className="item-title">
           Name
         </label>
-        <input type="text" name="name" id="name" className="item-input" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          className="item-input"
+          required
+        />
       </div>
       <div className="form-item half-w">
         <label htmlFor="email" className="item-title">
           Company Email
         </label>
-        <input type="email" name="email" id="email" className="item-input" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          className="item-input"
+          required
+        />
       </div>
       <div className="form-item half-w">
         <label htmlFor="size" className="item-title">
@@ -34,7 +46,7 @@ export default function Form() {
         </select>
       </div>
       <div className="form-item full-w">
-        <label htmlFor="message" className="item-title">
+        <label htmlFor="message" className="item-title" required>
           Message
         </label>
         <textarea
@@ -50,6 +62,7 @@ export default function Form() {
           name="consent"
           id="consent"
           className="checkbox"
+          required
         />{" "}
         I consent to being contacted by the team.
       </div>
