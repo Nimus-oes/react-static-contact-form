@@ -14,6 +14,11 @@
   letter-spacing: -0.16px;
 }
 
+.title,
+.subtitle {
+  text-align: center;
+}
+
 /* Main */
 
 .main {
