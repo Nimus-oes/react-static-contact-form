@@ -50,6 +50,7 @@
   gap: 24px;
   background-color: var(--opaque-container);
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .form-item {
