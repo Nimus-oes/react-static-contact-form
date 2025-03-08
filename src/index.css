@@ -11,4 +11,12 @@
 
 body {
   width: 100vw;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
 }
