@@ -5,6 +5,11 @@
   margin: 20px auto 40px auto;
 }
 
+.logo {
+  width: 100px;
+  height: 30px;
+}
+
 /* Heading*/
 
 .title {
