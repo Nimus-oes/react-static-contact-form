@@ -43,6 +43,7 @@
   flex-direction: column;
   padding: 20px 12px;
   gap: 24px;
+  background-color: var(--opaque-container);
 }
 
 .form-item {
