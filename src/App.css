@@ -90,6 +90,7 @@
   letter-spacing: -0.2px;
   padding: 24px 0;
   color: var(--purple-text);
+  background-color: white;
 }
 
 .item-input,
