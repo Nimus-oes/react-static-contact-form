@@ -109,6 +109,12 @@
   background-position-y: 50%;
 }
 
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
 @media only screen and (min-width: 820px) {
   .header {
     width: 85%;

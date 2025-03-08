@@ -45,8 +45,13 @@ export default function Form() {
       </div>
       <div className="form-item consent full-w">
         <label htmlFor="consent"></label>
-        <input type="checkbox" name="consent" id="consent" /> I consent to being
-        contacted by the team.
+        <input
+          type="checkbox"
+          name="consent"
+          id="consent"
+          className="checkbox"
+        />{" "}
+        I consent to being contacted by the team.
       </div>
       <button className="button full-w">Contact Sales</button>
     </form>
