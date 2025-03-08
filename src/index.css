@@ -9,6 +9,28 @@
   margin: 0;
 }
 
+:root {
+  --white-text: rgb(255, 255, 255);
+  --black-text: rgb(17, 23, 41);
+  --purple-text: rgb(64, 54, 169);
+  --opaque-container: rgba(255, 255, 255, 0.2);
+}
+
+body::before {
+  content: ""; /* Creates an invisible element before the body’s content, 
+  allowing to apply a background image and styles to it */
+  position: fixed; /* Fixes the position relative to the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Places background behind other content */
+  background-image: url(./assets/background.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 body {
   width: 100vw;
   font-family: "Be Vietnam Pro", sans-serif;

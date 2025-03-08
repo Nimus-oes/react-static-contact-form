@@ -26,6 +26,7 @@
 .title,
 .subtitle {
   text-align: center;
+  color: var(--white-text);
 }
 
 /* Main */
@@ -51,16 +52,16 @@
 }
 
 .item-title {
-  font-size: 14px;
   font-weight: 500;
-  letter-spacing: -0.14px;
 }
 
 .item-input {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.16px;
-  padding: 24px 22px;
+  padding: 23px 22px;
+  height: 68px;
+  color: var(--black-text);
 }
 
 .textarea {
@@ -69,11 +70,16 @@
 
 .consent {
   flex-direction: row;
-  font-size: 14px;
   font-weight: 400;
-  letter-spacing: -0.14px;
   gap: 5px;
   align-items: center;
+}
+
+.item-title,
+.consent {
+  font-size: 14px;
+  color: var(--white-text);
+  letter-spacing: -0.14px;
 }
 
 .button {
@@ -81,6 +87,7 @@
   font-weight: 700;
   letter-spacing: -0.2px;
   padding: 24px 0;
+  color: var(--purple-text);
 }
 
 @media only screen and (min-width: 820px) {
