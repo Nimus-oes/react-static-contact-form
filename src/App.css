@@ -13,7 +13,7 @@
 /* Heading*/
 
 .title {
-  font-size: 40px;
+  font-size: var(--40px);
   font-weight: 700;
   line-height: 125%;
   letter-spacing: -0.4px;
@@ -21,7 +21,7 @@
 }
 
 .subtitle {
-  font-size: 16px;
+  font-size: var(--16px);
   font-weight: 500;
   line-height: 150%;
   letter-spacing: -0.16px;
@@ -64,16 +64,16 @@
 }
 
 .item-input {
-  font-size: 16px;
+  font-size: var(--16px);
   font-weight: 600;
   letter-spacing: -0.16px;
   padding: 23px 22px;
-  height: 68px;
+  height: var(--68px);
   color: var(--black-text);
 }
 
 .textarea {
-  height: 206px;
+  height: var(--206px);
 }
 
 .consent {
@@ -85,13 +85,13 @@
 
 .item-title,
 .consent {
-  font-size: 14px;
+  font-size: var(--14px);
   color: var(--white-text);
   letter-spacing: -0.14px;
 }
 
 .button {
-  font-size: 20px;
+  font-size: var(--20px);
   font-weight: 700;
   letter-spacing: -0.2px;
   padding: 24px 0;
@@ -110,18 +110,18 @@
   -moz-appearance: none;
   background-image: url(./assets/expand_down.svg);
   background-repeat: no-repeat;
-  background-size: 24px 24px;
+  background-size: var(--24px) var(--24px);
   background-position-x: 95%;
   background-position-y: 50%;
 }
 
 .checkbox {
-  width: 20px;
-  height: 20px;
+  width: var(--20px);
+  height: var(--20px);
   margin-right: 3px;
 }
 
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 51.25rem /* 820px */) {
   .header {
     width: 85%;
   }
@@ -131,14 +131,14 @@
   }
 
   .title {
-    width: 577px;
-    font-size: 64px;
+    width: var(--577px);
+    font-size: var(--64px);
     letter-spacing: -0.64px;
   }
 
   .subtitle {
-    width: 641px;
-    font-size: 32px;
+    width: var(--641px);
+    font-size: var(--32px);
     letter-spacing: -0.32px;
   }
 
@@ -161,7 +161,7 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 75rem /* 1200px */) {
   .header {
     width: 89%;
   }

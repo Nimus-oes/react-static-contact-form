@@ -11,6 +11,17 @@
   --black-text: rgb(17, 23, 41);
   --purple-text: rgb(64, 54, 169);
   --opaque-container: rgba(255, 255, 255, 0.2);
+  --14px: 0.875rem;
+  --16px: 1rem;
+  --20px: 1.25rem;
+  --24px: 1.5rem;
+  --32px: 2rem;
+  --40px: 2.5rem;
+  --64px: 4rem;
+  --68px: 4.25rem;
+  --206px: 12.875rem;
+  --577px: 36.0625rem;
+  --641px: 37.70588235rem;
 }
 
 body::before {
