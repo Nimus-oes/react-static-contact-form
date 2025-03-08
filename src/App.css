@@ -44,6 +44,7 @@
   padding: 20px 12px;
   gap: 24px;
   background-color: var(--opaque-container);
+  border-radius: 20px;
 }
 
 .form-item {
@@ -63,6 +64,7 @@
   padding: 23px 22px;
   height: 68px;
   color: var(--black-text);
+  border-radius: 16px;
 }
 
 .textarea {
