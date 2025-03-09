@@ -147,6 +147,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 18px;
+    padding: 32px;
   }
 
   .form-item {
