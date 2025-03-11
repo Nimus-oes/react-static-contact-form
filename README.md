@@ -35,7 +35,7 @@
 ## Features
 
 - A form containing text, email, number, checkbox, and dropdown input fields
-- Responsive form layout switching from a single-column on mobile to two-column on desktop using flexbox wrap
+- Responsive form layout switching from a single-column on mobile to two-column on desktop using a grid
 - An achored background image using the pseudo element `::before`
 - Custom dropdown arrow for `<select>` element
 - Accessible text and elements that scales with default font size of browsers using a relative unit `rem`
