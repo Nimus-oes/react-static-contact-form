@@ -44,8 +44,8 @@
 /* Form */
 
 .form {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   padding: 20px 12px;
   gap: 24px;
   background-color: var(--opaque-container);
@@ -144,8 +144,7 @@
   }
 
   .form {
-    flex-direction: row;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
     gap: 18px;
     padding: 32px;
   }
@@ -155,11 +154,11 @@
   }
 
   .half-w {
-    flex: 1 1 48%;
+    grid-column: span 1;
   }
 
   .full-w {
-    flex: 1 1 100%;
+    grid-column: span 2;
   }
 }
 
